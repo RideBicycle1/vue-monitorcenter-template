@@ -58,7 +58,7 @@ export const constantRoutes = [
       {
         path: 'object',
         name: 'Object',
-        component: () => import('@/views/object/index'),
+        component: () => import('@/views/object/index1'),
         meta: { title: '监控对象', icon: 'table' }
       },
       {
